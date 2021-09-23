@@ -33,6 +33,11 @@ const Navbar = () => {
             <NavLink exact to="/Search" activeClassName="active_css"
                            className="nav-link" >Search</NavLink>
         </li>
+        
+        <li className="nav-item">
+            <NavLink exact to="/Scss" activeClassName="active_css"
+                           className="nav-link" >Scss/Sass</NavLink>
+        </li>
         </ul>
        </nav>
 
